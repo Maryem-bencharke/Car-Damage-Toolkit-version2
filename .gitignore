@@ -86,7 +86,7 @@ __pycache__/
 local_settings.py
 
 .env
-db.sqlite3
+Application/django_cardamage/db.sqlite3
 
 ################# vue ignore ############
 .DS_Store
