@@ -23,3 +23,9 @@ The Analysis of each image follow these steps : <br>
 2. A second model is used to see if there is any damage or Not
 3. The aim of the third model is to localize damage following three classes : Front, Rear, Side
 4. Finally the last model determine the severity of damages based on three classes : Minor, Moderate, Severe
+
+## :calendar: Futur Works
+
+* After the conversion of VGG19 model into an IR, it's performance has degraded too much. So actually the application just use the simple VGG19 during the Car or Not Checking. Because of these I want to implemente Post-Training Optimization with Openvino for these model
+* Re-do the implementation of the PDF report to capture all the details on the page
+* Dockerize the django-vue application
